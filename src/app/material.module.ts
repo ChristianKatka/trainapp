@@ -12,7 +12,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
-
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 
 @NgModule({
@@ -26,7 +27,9 @@ import { MatTableModule } from '@angular/material/table';
         MatCheckboxModule,
         MatInputModule,
         MatCardModule,
-        MatTableModule
+        MatTableModule,
+        MatPaginatorModule,
+        MatSortModule
     ],
 
     //so we can use it outside of this component
@@ -40,7 +43,9 @@ import { MatTableModule } from '@angular/material/table';
         MatCheckboxModule,
         MatInputModule,
         MatCardModule,
-        MatTableModule
+        MatTableModule,
+        MatPaginatorModule,
+        MatSortModule
     ]
 })
 
